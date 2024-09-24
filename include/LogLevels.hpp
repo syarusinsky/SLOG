@@ -8,8 +8,9 @@
  * defines the logging level, as well as some common levels such as error,
  * warning, ect.
  *
- * You can extend your own levels by inheriting from
- * LogLevel, then inheriting from LogLevels to extend the static defines.
+ * You can extend your own levels by inheriting from LogLevel, then
+ * inheriting from LogLevels to extend the static defines. The extended
+ * LogLevels class should typically be named LogLevelsE.
 **************************************************************************/
 
 class LogLevelError;
